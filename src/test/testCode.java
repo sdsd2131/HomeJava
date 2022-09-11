@@ -19,13 +19,20 @@ public class testCode {
 		map.put("age", "28");
 		list.add(map);
 		
-		map.put("name", "Jongeun");
-		map.put("age", "29");
+		map.put("name2", "Jongeun");
+		map.put("age2", "29");
 		list.add(map);
+		
+//		map.put("name", "Park");
+//		map.put("age", "12");
+//		list.add(map);
 		
 		for(int i=0; i<list.size(); i++) {
 			System.out.println("list.get(" + i + ") = " + list.get(i).get("name"));
 			System.out.println("list.get(" + i + ") = " + list.get(i).get("age"));
+			System.out.println("list.get(" + i + ").name2 = " + list.get(i).get("name2"));
+			System.out.println("list.get(" + i + ").age2 = " + list.get(i).get("age2"));
+			System.out.println("================================================");
 		}
 	}
 }
