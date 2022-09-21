@@ -27,5 +27,7 @@ public class testCode {
 			System.out.println("list.get(" + i + ") = " + list.get(i).get("name"));
 			System.out.println("list.get(" + i + ") = " + list.get(i).get("age"));
 		}
+		
+		String testName = "()1234()박종은()12341234()";
 	}
 }
