@@ -47,5 +47,7 @@ public class testCode {
 		for(int i=0; i<listMap.get("A").size(); i++) {
 			System.out.println(i + " = listMap.get(A) = " + listMap.get("A").get(i));
 		}
+		
+		String testName = "()1234()박종은()12341234()";
 	}
 }
