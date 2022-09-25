@@ -34,5 +34,18 @@ public class testCode {
 			System.out.println("list.get(" + i + ").age2 = " + list.get(i).get("age2"));
 			System.out.println("================================================");
 		}
+		
+		Map<String, List<Integer>> listMap = new HashMap<>();
+		
+		List<Integer> list2 = new ArrayList<>();
+		list2.add(100);
+		list2.add(200);
+		list2.add(300);
+		
+		listMap.put("A", list2);
+		
+		for(int i=0; i<listMap.get("A").size(); i++) {
+			System.out.println(i + " = listMap.get(A) = " + listMap.get("A").get(i));
+		}
 	}
 }
