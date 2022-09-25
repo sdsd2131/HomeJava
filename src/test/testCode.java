@@ -23,10 +23,6 @@ public class testCode {
 		map.put("age2", "29");
 		list.add(map);
 		
-//		map.put("name", "Park");
-//		map.put("age", "12");
-//		list.add(map);
-		
 		for(int i=0; i<list.size(); i++) {
 			System.out.println("list.get(" + i + ") = " + list.get(i).get("name"));
 			System.out.println("list.get(" + i + ") = " + list.get(i).get("age"));
